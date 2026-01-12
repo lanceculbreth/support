@@ -1,0 +1,21 @@
+#!/bin/bash
+# Quick deployment script for Nimbus Support Page
+
+echo "🚀 Quick Deployment Options for Nimbus Support Page"
+echo ""
+echo "Option 1: Netlify Drop (EASIEST - No account needed)"
+echo "  1. Open: https://app.netlify.com/drop"
+echo "  2. Drag this folder into the browser"
+echo "  3. Get instant public URL"
+echo ""
+echo "Option 2: Surge.sh (Quick CLI)"
+echo "  Run: npx surge ."
+echo "  Then follow prompts (first time requires email/password)"
+echo ""
+echo "Option 3: GitHub Pages (Permanent)"
+echo "  See DEPLOY.md for detailed instructions"
+echo ""
+echo "Current directory: $(pwd)"
+echo ""
+read -p "Press Enter to open Netlify Drop in your browser, or Ctrl+C to cancel..."
+open "https://app.netlify.com/drop"

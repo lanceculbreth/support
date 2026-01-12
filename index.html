@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimbus Healthcare Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-logo">
+                <img src="NB_br_Logo Black_0325.png" alt="Nimbus Healthcare Logo" class="logo-image">
+            </div>
+            <h1 class="hero-title">Nimbus Healthcare Support</h1>
+        </div>
+    </header>
+
+    <!-- Product Categories -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card" data-category="mobileapp">
+                    <div class="product-emoji">📱</div>
+                    <h3>Mobile App</h3>
+                </div>
+                <div class="product-card" data-category="portal">
+                    <div class="product-emoji">💻</div>
+                    <h3>Patient Portal</h3>
+                </div>
+                <div class="product-card" data-category="weightloss">
+                    <div class="product-emoji">⚖️</div>
+                    <h3>Weight Loss</h3>
+                </div>
+                <div class="product-card" data-category="microdosing">
+                    <div class="product-emoji">🧪</div>
+                    <h3>Microdosing</h3>
+                </div>
+                <div class="product-card" data-category="hormone">
+                    <div class="product-emoji">🧬</div>
+                    <h3>Hormone</h3>
+                </div>
+                <div class="product-card" data-category="billing">
+                    <div class="product-emoji">💳</div>
+                    <h3>Billing & Payments</h3>
+                </div>
+                <div class="product-card" data-category="shipping">
+                    <div class="product-emoji">📦</div>
+                    <h3>Shipping</h3>
+                </div>
+                <div class="product-card" data-category="prescriptions">
+                    <div class="product-emoji">💊</div>
+                    <h3>Prescriptions & Refills</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Topics -->
+    <section class="topics-section">
+        <div class="container">
+            <h2 class="section-title">Popular Topics</h2>
+            <div class="topics-grid" id="topics-grid">
+                <!-- Topics will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <h2 class="section-title">Search for More Topics</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" class="search-input" placeholder="Search Support">
+                <button class="search-button" id="search-btn"></button>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section class="troubleshooting-section">
+        <div class="container">
+            <h2 class="section-title">Common Issues & Troubleshooting</h2>
+            <div class="troubleshooting-list" id="troubleshooting-list">
+                <!-- Troubleshooting items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Practices & Education -->
+    <section class="education-section">
+        <div class="container">
+            <h2 class="section-title">Best Practices & Education</h2>
+            <div class="education-grid" id="education-grid">
+                <!-- Education items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How-To Guides -->
+    <section class="howto-section">
+        <div class="container">
+            <h2 class="section-title">How-To Guides</h2>
+            <div class="howto-grid" id="howto-grid">
+                <!-- How-to items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Programs -->
+    <section class="service-section">
+        <div class="container">
+            <h2 class="section-title">Service & Support</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>24/7 Support</h3>
+                    <p>Get help anytime, anywhere with our round-the-clock support team.</p>
+                    <a href="#" class="service-link">Contact Support →</a>
+                </div>
+                <div class="service-card">
+                    <h3>Account Assistance</h3>
+                    <p>Need help with your account? Our specialists are here to assist.</p>
+                    <a href="#" class="service-link">Get Help →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Product Support</h4>
+                    <ul>
+                        <li><a href="#">Patient Portal</a></li>
+                        <li><a href="#">Billing Support</a></li>
+                        <li><a href="#">Appointments</a></li>
+                        <li><a href="#">Medical Records</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Video Guides</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support Community</a></li>
+                        <li><a href="#">Social Media</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nimbus Healthcare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Article Details -->
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Aura Chat FAB -->
+    <button class="aura-fab" id="aura-fab" aria-label="Chat with Aura">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H6L4 18V4H20V16Z" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <!-- Aura Chat Modal -->
+    <div class="aura-chat-modal" id="aura-chat-modal">
+        <div class="aura-chat-container">
+            <div class="aura-chat-header">
+                <div class="aura-chat-header-content">
+                    <h3>Chat with Aura</h3>
+                    <p class="aura-subtitle">Your AI assistant</p>
+                </div>
+                <button class="aura-chat-close" id="aura-chat-close" aria-label="Close chat">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="aura-chat-messages" id="aura-chat-messages">
+                <div class="aura-message aura-message-bot">
+                    <div class="aura-message-content">
+                        <p>Hello! I'm Aura, your AI assistant. How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aura-chat-input-container">
+                <input type="text" id="aura-chat-input" class="aura-chat-input" placeholder="Ask Aura a question..." />
+                <button class="aura-chat-send" id="aura-chat-send" aria-label="Send message">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
