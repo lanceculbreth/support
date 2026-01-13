@@ -51,7 +51,7 @@ const supportData = {
                 <p>WeightWise Core starts at $175/month. This includes care team access, dosing plan, and adherence support. Medication strength, labs, and shipping may vary.</p>
                 
                 <h4>Questions About WeightWise Core?</h4>
-                <p>For questions about the program, eligibility, or to get started, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or log into your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a>.</p>
+                <p>For questions about the program, eligibility, or to get started, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or log into your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a>.</p>
             `
         },
         {
@@ -86,7 +86,7 @@ const supportData = {
                 </ul>
                 
                 <h4>Questions About Microdosing?</h4>
-                <p>For questions about microdosing or to see if it's right for you, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or reach out through your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a>.</p>
+                <p>For questions about microdosing or to see if it's right for you, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or reach out through your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a>.</p>
             `
         },
         {
@@ -128,7 +128,7 @@ const supportData = {
                 <p>You can transition from Core to Sustain when you're ready for maintenance. Contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> to discuss transitioning to the program that best fits your current needs.</p>
                 
                 <h4>Manage Your Program</h4>
-                <p>Access your program settings and manage your subscription through your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a>.</p>
+                <p>Access your program settings and manage your subscription through your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a>.</p>
             `
         },
         {
@@ -185,7 +185,7 @@ const supportData = {
                 <h4>Updating Your Payment Method</h4>
                 <p>To update your payment method:</p>
                 <ol>
-                    <li>Log into your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a></li>
+                    <li>Log into your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a></li>
                     <li>Navigate to the "Payments" section</li>
                     <li>Select or add a payment method</li>
                     <li>Enter your new payment information</li>
@@ -281,7 +281,7 @@ const supportData = {
             type: "education",
             content: `
                 <h3>Medication Dosage Guidelines</h3>
-                <p>All dosage adjustments should always be made under medical supervision. Contact your healthcare provider through the <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a> to discuss any changes to your medication dosage.</p>
+                <p>All dosage adjustments should always be made under medical supervision. Contact your healthcare provider through the <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a> to discuss any changes to your medication dosage.</p>
                 
                 <h4>Missed Doses</h4>
                 <p><strong>For GLP-1 Medications:</strong></p>
@@ -302,7 +302,7 @@ const supportData = {
                 <h4>Dosage Adjustments</h4>
                 <p>Dosage adjustments require medical supervision. To request a dosage change:</p>
                 <ol>
-                    <li>Log into your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a></li>
+                    <li>Log into your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a></li>
                     <li>Contact your healthcare provider through the messaging system</li>
                     <li>Describe your symptoms or concerns</li>
                     <li>Your provider will review and make recommendations</li>
@@ -606,7 +606,7 @@ const supportData = {
                 </ul>
                 
                 <h3>When to Contact Your Clinical Team</h3>
-                <p>Contact your clinical team through your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a> or email <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> if:</p>
+                <p>Contact your clinical team through your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a> or email <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> if:</p>
                 <ul>
                     <li>Side effects are severe or persistent</li>
                     <li>You have concerns about your medication</li>
@@ -656,7 +656,7 @@ const supportData = {
                 </ul>
                 
                 <h3>Accessing Your Questionnaire</h3>
-                <p>You'll receive your refill questionnaire via email and can also access it through your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a>.</p>
+                <p>You'll receive your refill questionnaire via email and can also access it through your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a>.</p>
             `
         },
         {
@@ -813,7 +813,7 @@ const supportData = {
                 <p>Eligibility depends on your health profile and goals. Start your intake to check in minutes. Our providers review your information to determine if WeightWise Core is right for you.</p>
                 
                 <h4>Questions?</h4>
-                <p>For questions about WeightWise Core, eligibility, or to get started, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or log into your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a>.</p>
+                <p>For questions about WeightWise Core, eligibility, or to get started, contact our support team at <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or log into your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a>.</p>
             `
         },
         {
@@ -943,7 +943,7 @@ const supportData = {
                 <h4>Step 1: Access Your Questionnaire</h4>
                 <ol>
                     <li>Check your email for the refill questionnaire notification</li>
-                    <li>Or log into your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a></li>
+                    <li>Or log into your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a></li>
                     <li>Navigate to the "Refills" or "Questionnaires" section</li>
                 </ol>
                 
@@ -1280,7 +1280,7 @@ const supportData = {
                 
                 <h4>Stay Connected with Your Clinical Team</h4>
                 <ul>
-                    <li>Check your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a> regularly for messages</li>
+                    <li>Check your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a> regularly for messages</li>
                     <li>Use pharmacist chat for side-effects and dosing questions</li>
                     <li>Report any concerns or unusual symptoms promptly</li>
                     <li>Take advantage of weekly nudges and check-ins</li>
@@ -1312,7 +1312,7 @@ const supportData = {
                 </ul>
                 
                 <h4>Need Support?</h4>
-                <p>Our clinical team is here to help you succeed. Contact <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or reach out through your <a href="https://start.nimbushealthcare.com" target="_blank">patient portal</a> with any questions or concerns.</p>
+                <p>Our clinical team is here to help you succeed. Contact <a href="mailto:support@nimbushealthcare.com">support@nimbushealthcare.com</a> or reach out through your <a href="https://start.nimbushealthcare.com/patient?_gl=1*1el01tb*_gcl_au*MjAyNzEzMTc4OC4xNzY4MjY2MDYx*_ga*MTE0MjI2MTY5MS4xNzY4MjY2MDYx*_ga_V97CJE0LB6*czE3NjgyNjYwNjAkbzEkZzAkdDE3NjgyNjYwNjAkajYwJGwwJGgw" target="_blank">patient portal</a> with any questions or concerns.</p>
             `
         }
     ]
