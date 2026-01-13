@@ -10,12 +10,106 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation - Floating Pill Style -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="navbar-pill">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <img src="nimbus-logo.png" alt="Nimbus" class="logo-img">
+                </a>
+
+                <!-- Center Navigation -->
+                <ul class="nav-links">
+                    <li class="nav-item has-dropdown">
+                        <a href="#weight">Weight</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=300&h=200&fit=crop" alt="WeightWiseRX">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-title">What is WeightWiseRX</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300&h=200&fit=crop" alt="Core">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-subtitle">Full strength GLP-1 for weight loss</span>
+                                    <span class="dropdown-title">WeightWiseRX Core</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=300&h=200&fit=crop" alt="Sustain">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-subtitle">Maintain the weight you've lost</span>
+                                    <span class="dropdown-title">WeightWiseRX Sustain</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#microdosing">Microdosing</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#hormone">Hormone</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=300&h=200&fit=crop" alt="NimCore">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-title">What is NimCore®</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop" alt="Men">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-subtitle">Hormone optimization for men</span>
+                                    <span class="dropdown-title">Men</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=300&h=200&fit=crop" alt="Women">
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-subtitle">Hormone optimization for women</span>
+                                    <span class="dropdown-title">Women</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#hair">Hair</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                </ul>
+
+                <!-- Right Actions -->
+                <div class="nav-actions">
+                    <a href="#" class="login-link">Login</a>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <nav class="mobile-nav">
+            <a href="#weight" class="mobile-nav-link">Weight</a>
+            <a href="#microdosing" class="mobile-nav-link">Microdosing</a>
+            <a href="#hormone" class="mobile-nav-link">Hormone</a>
+            <a href="#hair" class="mobile-nav-link">Hair</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <div class="mobile-nav-actions">
+                <a href="#" class="btn btn-outline-light">Login</a>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+        </nav>
+    </div>
+
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-container">
-            <div class="hero-logo">
-                <img src="NB_br_Logo Black_0325.png" alt="Nimbus Healthcare Logo" class="logo-image">
-            </div>
             <h1 class="hero-title">Nimbus Healthcare Support</h1>
         </div>
     </header>
@@ -175,6 +269,24 @@
             <div id="modal-body"></div>
         </div>
     </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg class="theme-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 2V4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 20V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.93 4.93L6.34 6.34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.66 17.66L19.07 19.07" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 12H22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6.34 17.66L4.93 19.07" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M19.07 4.93L17.66 6.34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
 
     <!-- Aura Chat FAB -->
     <button class="aura-fab" id="aura-fab" aria-label="Chat with Aura">

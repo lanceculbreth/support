@@ -23,6 +23,9 @@ const auraChatMessages = document.getElementById('aura-chat-messages');
 
 // Initialize page
 document.addEventListener('DOMContentLoaded', function() {
+    initTheme();
+    initMobileMenu();
+    initDropdowns();
     populateTopics();
     populateTroubleshooting();
     populateEducation();
@@ -30,6 +33,85 @@ document.addEventListener('DOMContentLoaded', function() {
     setupEventListeners();
     setupAuraChat();
 });
+
+// Theme Toggle
+function initTheme() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    
+    // Check localStorage for saved theme preference, default to dark
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    
+    // Apply saved theme
+    if (savedTheme === 'light') {
+        body.classList.add('light-mode');
+    } else {
+        body.classList.remove('light-mode');
+    }
+    
+    // Toggle theme on button click
+    if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+            body.classList.toggle('light-mode');
+            const isLightMode = body.classList.contains('light-mode');
+            localStorage.setItem('theme', isLightMode ? 'light' : 'dark');
+        });
+    }
+}
+
+// Mobile Menu
+function initMobileMenu() {
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+    const body = document.body;
+    
+    if (menuBtn && mobileOverlay) {
+        menuBtn.addEventListener('click', function() {
+            body.classList.toggle('menu-open');
+            mobileOverlay.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on links
+        const mobileLinks = mobileOverlay.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                body.classList.remove('menu-open');
+                mobileOverlay.classList.remove('active');
+            });
+        });
+        
+        // Close menu when clicking outside
+        mobileOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileOverlay) {
+                body.classList.remove('menu-open');
+                mobileOverlay.classList.remove('active');
+            }
+        });
+    }
+}
+
+// Dropdowns
+function initDropdowns() {
+    const dropdownItems = document.querySelectorAll('.nav-item.has-dropdown');
+    
+    dropdownItems.forEach(item => {
+        const dropdown = item.querySelector('.dropdown-menu');
+        
+        if (dropdown) {
+            item.addEventListener('mouseenter', () => {
+                dropdown.style.opacity = '1';
+                dropdown.style.visibility = 'visible';
+                dropdown.style.transform = 'translateX(-50%) translateY(0)';
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                dropdown.style.opacity = '0';
+                dropdown.style.visibility = 'hidden';
+                dropdown.style.transform = 'translateX(-50%) translateY(10px)';
+            });
+        }
+    });
+}
 
 // Setup event listeners
 function setupEventListeners() {
