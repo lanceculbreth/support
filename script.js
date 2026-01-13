@@ -50,13 +50,29 @@ function initTheme() {
         body.classList.remove('light-mode');
     }
     
+    // Update logo based on initial theme
+    updateLogo(body.classList.contains('light-mode'));
+    
     // Toggle theme on button click
     if (themeToggle) {
         themeToggle.addEventListener('click', function() {
             body.classList.toggle('light-mode');
             const isLightMode = body.classList.contains('light-mode');
             localStorage.setItem('theme', isLightMode ? 'light' : 'dark');
+            updateLogo(isLightMode);
         });
+    }
+}
+
+// Update logo based on theme
+function updateLogo(isLightMode) {
+    const logoImg = document.querySelector('.logo-img');
+    if (logoImg) {
+        if (isLightMode) {
+            logoImg.src = 'NB_br_Logo Black_0325.png';
+        } else {
+            logoImg.src = 'nimbus-logo.png';
+        }
     }
 }
 
