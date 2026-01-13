@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initTheme();
     initMobileMenu();
     initDropdowns();
+    initNavbarScroll();
     populateTopics();
     populateTroubleshooting();
     populateEducation();
@@ -111,6 +112,21 @@ function initDropdowns() {
             });
         }
     });
+}
+
+// Navbar scroll shadow
+function initNavbarScroll() {
+    const navbarPill = document.querySelector('.navbar-pill');
+    
+    if (navbarPill) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 20) {
+                navbarPill.classList.add('scrolled');
+            } else {
+                navbarPill.classList.remove('scrolled');
+            }
+        });
+    }
 }
 
 // Setup event listeners
