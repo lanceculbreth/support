@@ -110,8 +110,16 @@ body {
     text-decoration: none;
 }
 
+body.light-mode .nav-item a {
+    color: rgba(35, 35, 36, 0.7);
+}
+
 .nav-item a:hover {
     color: var(--color-light);
+}
+
+body.light-mode .nav-item a:hover {
+    color: #232324;
 }
 
 .nav-item.has-dropdown {
@@ -192,8 +200,16 @@ body {
     text-decoration: none;
 }
 
+body.light-mode .login-link {
+    color: rgba(35, 35, 36, 0.7);
+}
+
 .login-link:hover {
     color: var(--color-light);
+}
+
+body.light-mode .login-link:hover {
+    color: #232324;
 }
 
 .btn {
@@ -217,7 +233,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: var(--secondary-color);
+    background: #0FA9A2;
 }
 
 .btn-outline-light {
@@ -247,6 +263,10 @@ body {
     height: 2px;
     background: var(--color-light);
     border-radius: 2px;
+}
+
+body.light-mode .mobile-menu-btn span {
+    background: #232324;
 }
 
 .mobile-menu-overlay {
@@ -279,6 +299,10 @@ body {
     color: var(--color-light);
     text-decoration: none;
     transition: color var(--transition-fast);
+}
+
+body.light-mode .mobile-nav-link {
+    color: #232324;
 }
 
 .mobile-nav-link:hover {
@@ -336,6 +360,14 @@ body.light-mode .theme-icon-dark {
 
 body.light-mode .theme-icon-light {
     display: block;
+}
+
+body.light-mode .theme-toggle {
+    color: #232324;
+}
+
+body.light-mode .theme-toggle svg {
+    color: #232324;
 }
 
 @media (max-width: 900px) {
